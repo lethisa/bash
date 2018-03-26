@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # repetitive task for automation
-# syntax: 
+# syntax:
 # for {variable name} in {list}
 # do
 # ....execute one for each item in the list until the list is not finished
@@ -34,6 +34,6 @@ done
 
 # ex3
 for (( i = 0; i <= 5; i++))
-do 
+do
 echo "Welcome $i times"
 done
